@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datenschutzerklärung – 1. FGV Inden</title>
+    <style>
+        :root {
+            --bg: #0f1114;
+            --card: #1a1c1e;
+            --text: #e0e0e0;
+            --muted: #9ca3af;
+            --accent: #4ade80;
+            --border: #2a2d32;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.7;
+            padding: 2rem 1rem;
+        }
+
+        .container {
+            max-width: 720px;
+            margin: 0 auto;
+            background: var(--card);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            padding: 2.5rem 2rem;
+            box-shadow: 0 4px 24px rgba(0,0,0,0.4);
+        }
+
+        h1 {
+            font-size: 1.75rem;
+            font-weight: 700;
+            color: #fff;
+            margin-bottom: 0.25rem;
+        }
+
+        .subtitle {
+            color: var(--muted);
+            font-size: 0.9rem;
+            margin-bottom: 2rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid var(--border);
+        }
+
+        h2 {
+            font-size: 1.15rem;
+            font-weight: 600;
+            color: var(--accent);
+            margin-top: 2rem;
+            margin-bottom: 0.75rem;
+        }
+
+        p, li {
+            color: var(--text);
+            font-size: 0.95rem;
+            margin-bottom: 0.75rem;
+        }
+
+        ul {
+            padding-left: 1.25rem;
+            margin-bottom: 1rem;
+        }
+
+        li { margin-bottom: 0.4rem; }
+
+        a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+
+        a:hover { text-decoration: underline; }
+
+        .badge {
+            display: inline-block;
+            background: rgba(74, 222, 128, 0.1);
+            color: var(--accent);
+            padding: 0.15rem 0.6rem;
+            border-radius: 6px;
+            font-size: 0.8rem;
+            font-weight: 500;
+            margin-left: 0.5rem;
+        }
+
+        .footer {
+            margin-top: 2.5rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid var(--border);
+            color: var(--muted);
+            font-size: 0.85rem;
+            text-align: center;
+        }
+
+        @media (max-width: 600px) {
+            .container { padding: 1.5rem 1.25rem; border-radius: 12px; }
+            h1 { font-size: 1.4rem; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Datenschutzerklärung</h1>
+        <p class="subtitle">1. FGV Inden – Fußballgolf Tracker App<br>Letzte Aktualisierung: 12. Mai 2025</p>
+
+        <h2>1. Verantwortlicher</h2>
+        <p>
+            Verantwortlich für die Datenverarbeitung in dieser App ist der Betreiber des GitHub-Projekts
+            <a href="https://github.com/SandyLachs" target="_blank">SandyLachs</a>.
+        </p>
+        <p>
+            Kontakt: Über die
+            <a href="https://github.com/SandyLachs/fgvinden-legal/issues" target="_blank">GitHub Issues</a>
+            dieses Projekts.
+        </p>
+
+        <h2>2. Welche Daten wir erheben</h2>
+        <p>Die App erhebt ausschließlich die Daten, die für den Betrieb der Fußballgolf-Tracker-Funktionalität notwendig sind:</p>
+
+        <p><strong>Kontodaten</strong> <span class="badge">bei Registrierung</span></p>
+        <ul>
+            <li>E-Mail-Adresse</li>
+            <li>Anzeigename (frei wählbar)</li>
+            <li>Profilbild (optional, aus Kamera oder Fotobibliothek)</li>
+        </ul>
+
+        <p><strong>Spieldaten</strong> <span class="badge">bei Nutzung</span></p>
+        <ul>
+            <li>Spielstände und Ergebnisse (Strokeplay &amp; Matchplay)</li>
+            <li>Liga-, Pokal- und Turnierdaten (Spieltage, Tabellen, Runden)</li>
+            <li>Freundesliste und Freundschaftsanfragen</li>
+        </ul>
+
+        <p><strong>Lokale Einstellungen</strong> <span class="badge">auf dem Gerät</span></p>
+        <ul>
+            <li>Zuletzt geöffnete Liga/Pokal (wird lokal auf dem Gerät gespeichert und nicht an Server übertragen)</li>
+        </ul>
+
+        <h2>3. Zweck der Datenverarbeitung</h2>
+        <p>Wir verwenden Ihre Daten ausschließlich, um:</p>
+        <ul>
+            <li>Ihnen das Erstellen und Verwalten eines Benutzerkontos zu ermöglichen</li>
+            <li>Spielergebnisse zu speichern und anzuzeigen</li>
+            <li>Liga-, Pokal- und Turnierergebnisse zu verwalten</li>
+            <li>Freundschaftsfunktionen bereitzustellen</li>
+        </ul>
+
+        <h2>4. Drittanbieter-Dienste</h2>
+        <p>Die App nutzt folgende Dienste von Google Firebase:</p>
+        <ul>
+            <li><strong>Firebase Authentication</strong> – zur Verwaltung von Benutzerkonten</li>
+            <li><strong>Cloud Firestore</strong> – zur Speicherung von Spiel- und Nutzerdaten</li>
+            <li><strong>Firebase Storage</strong> – zur Speicherung von Profilbildern und Wappen</li>
+        </ul>
+        <p>
+            Diese Dienste werden von Google Ireland Ltd. betrieben.
+            Es gelten die <a href="https://firebase.google.com/support/privacy" target="_blank">Firebase-Datenschutzbestimmungen</a>
+            sowie die <a href="https://policies.google.com/privacy" target="_blank">Google-Datenschutzerklärung</a>.
+            Daten können in Rechenzentren außerhalb der EU verarbeitet werden. Google gewährleistet durch
+            Standardvertragsklauseln ein angemessenes Datenschutzniveau.
+        </p>
+
+        <h2>5. Geräteberechtigungen</h2>
+        <p>Die App fragt folgende Berechtigungen an:</p>
+        <ul>
+            <li><strong>Kamera</strong> – um ein Profilbild aufzunehmen (nur bei aktiver Nutzung)</li>
+            <li><strong>Fotos / Fotobibliothek</strong> – um ein vorhandenes Bild als Profilbild auszuwählen</li>
+        </ul>
+        <p>Diese Berechtigungen werden nur bei Bedarf angefragt und können jederzeit in den Geräteeinstellungen widerrufen werden.</p>
+
+        <h2>6. Datenweitergabe</h2>
+        <p>
+            Ihre Daten werden nicht an Dritte verkauft oder zu Werbezwecken verwendet.
+            Eine Weitergabe erfolgt ausschließlich im Rahmen der unter Punkt 4 genannten Firebase-Dienste.
+        </p>
+
+        <h2>7. Speicherdauer</h2>
+        <p>
+            Ihre Daten werden gespeichert, solange Ihr Benutzerkonto besteht.
+            Spielergebnisse in Ligen, Pokalen und Turnieren bleiben erhalten, solange die jeweilige Saison aktiv oder archiviert ist.
+        </p>
+
+        <h2>8. Ihre Rechte</h2>
+        <p>Sie haben das Recht auf:</p>
+        <ul>
+            <li>Auskunft über Ihre gespeicherten Daten</li>
+            <li>Berichtigung unrichtiger Daten</li>
+            <li>Löschung Ihres Kontos und Ihrer Daten</li>
+            <li>Einschränkung der Verarbeitung</li>
+            <li>Datenübertragbarkeit</li>
+            <li>Widerspruch gegen die Verarbeitung</li>
+        </ul>
+        <p>
+            Zur Ausübung Ihrer Rechte wenden Sie sich bitte über die
+            <a href="https://github.com/SandyLachs/fgvinden-legal/issues" target="_blank">GitHub Issues</a> an uns.
+        </p>
+
+        <h2>9. Kinder</h2>
+        <p>
+            Die App ist nicht gezielt an Kinder unter 16 Jahren gerichtet.
+            Personen unter 16 Jahren sollten die App nur mit Einwilligung eines Erziehungsberechtigten nutzen.
+        </p>
+
+        <h2>10. Änderungen</h2>
+        <p>
+            Wir behalten uns vor, diese Datenschutzerklärung bei Bedarf zu aktualisieren.
+            Die aktuelle Version ist stets unter dieser URL abrufbar.
+        </p>
+
+        <div class="footer">
+            &copy; 2025 1. FGV Inden &middot; Fußballgolf Tracker
+        </div>
+    </div>
+</body>
+</html>
