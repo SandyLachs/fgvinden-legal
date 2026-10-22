@@ -1,220 +1,361 @@
 <!DOCTYPE html>
-<html lang="de">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Datenschutzerklärung – 1. FGV Inden</title>
-    <style>
-        :root {
-            --bg: #0f1114;
-            --card: #1a1c1e;
-            --text: #e0e0e0;
-            --muted: #9ca3af;
-            --accent: #4ade80;
-            --border: #2a2d32;
-        }
-
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-
-        body {
-            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-            background: var(--bg);
-            color: var(--text);
-            line-height: 1.7;
-            padding: 2rem 1rem;
-        }
-
-        .container {
-            max-width: 720px;
-            margin: 0 auto;
-            background: var(--card);
-            border: 1px solid var(--border);
-            border-radius: 16px;
-            padding: 2.5rem 2rem;
-            box-shadow: 0 4px 24px rgba(0,0,0,0.4);
-        }
-
-        h1 {
-            font-size: 1.75rem;
-            font-weight: 700;
-            color: #fff;
-            margin-bottom: 0.25rem;
-        }
-
-        .subtitle {
-            color: var(--muted);
-            font-size: 0.9rem;
-            margin-bottom: 2rem;
-            padding-bottom: 1.5rem;
-            border-bottom: 1px solid var(--border);
-        }
-
-        h2 {
-            font-size: 1.15rem;
-            font-weight: 600;
-            color: var(--accent);
-            margin-top: 2rem;
-            margin-bottom: 0.75rem;
-        }
-
-        p, li {
-            color: var(--text);
-            font-size: 0.95rem;
-            margin-bottom: 0.75rem;
-        }
-
-        ul {
-            padding-left: 1.25rem;
-            margin-bottom: 1rem;
-        }
-
-        li { margin-bottom: 0.4rem; }
-
-        a {
-            color: var(--accent);
-            text-decoration: none;
-        }
-
-        a:hover { text-decoration: underline; }
-
-        .badge {
-            display: inline-block;
-            background: rgba(74, 222, 128, 0.1);
-            color: var(--accent);
-            padding: 0.15rem 0.6rem;
-            border-radius: 6px;
-            font-size: 0.8rem;
-            font-weight: 500;
-            margin-left: 0.5rem;
-        }
-
-        .footer {
-            margin-top: 2.5rem;
-            padding-top: 1.5rem;
-            border-top: 1px solid var(--border);
-            color: var(--muted);
-            font-size: 0.85rem;
-            text-align: center;
-        }
-
-        @media (max-width: 600px) {
-            .container { padding: 1.5rem 1.25rem; border-radius: 12px; }
-            h1 { font-size: 1.4rem; }
-        }
-    </style>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Datenschutzerklärung – 1. FGV Inden</title>
+  <style>
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <style>
+  body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;max-width:760px;margin:0 auto;padding:24px 16px 64px;line-height:1.6;color:#1a1c1e;background:#fff}
+  h1{font-size:1.7em;line-height:1.25}h2{margin-top:2em;font-size:1.25em;border-bottom:1px solid #ddd;padding-bottom:4px}
+  a{color:#1a7f37}
+  @media (prefers-color-scheme: dark){body{background:#1a1c1e;color:#e8e8e8}h2{border-color:#444}a{color:#5fd07a}}
+  </style>
 </head>
 <body>
-    <div class="container">
-        <h1>Datenschutzerklärung</h1>
-        <p class="subtitle">1. FGV Inden – Fußballgolf Tracker App<br>Letzte Aktualisierung: 12. Mai 2025</p>
-
-        <h2>1. Verantwortlicher</h2>
-        <p>
-            Verantwortlich für die Datenverarbeitung in dieser App ist der Betreiber des GitHub-Projekts
-            <a href="https://github.com/SandyLachs" target="_blank">SandyLachs</a>.
-        </p>
-        <p>
-            Kontakt: Über die
-            <a href="https://github.com/SandyLachs/fgvinden-legal/issues" target="_blank">GitHub Issues</a>
-            dieses Projekts.
-        </p>
-
-        <h2>2. Welche Daten wir erheben</h2>
-        <p>Die App erhebt ausschließlich die Daten, die für den Betrieb der Fußballgolf-Tracker-Funktionalität notwendig sind:</p>
-
-        <p><strong>Kontodaten</strong> <span class="badge">bei Registrierung</span></p>
-        <ul>
-            <li>E-Mail-Adresse</li>
-            <li>Anzeigename (frei wählbar)</li>
-            <li>Profilbild (optional, aus Kamera oder Fotobibliothek)</li>
-        </ul>
-
-        <p><strong>Spieldaten</strong> <span class="badge">bei Nutzung</span></p>
-        <ul>
-            <li>Spielstände und Ergebnisse (Strokeplay &amp; Matchplay)</li>
-            <li>Liga-, Pokal- und Turnierdaten (Spieltage, Tabellen, Runden)</li>
-            <li>Freundesliste und Freundschaftsanfragen</li>
-        </ul>
-
-        <p><strong>Lokale Einstellungen</strong> <span class="badge">auf dem Gerät</span></p>
-        <ul>
-            <li>Zuletzt geöffnete Liga/Pokal (wird lokal auf dem Gerät gespeichert und nicht an Server übertragen)</li>
-        </ul>
-
-        <h2>3. Zweck der Datenverarbeitung</h2>
-        <p>Wir verwenden Ihre Daten ausschließlich, um:</p>
-        <ul>
-            <li>Ihnen das Erstellen und Verwalten eines Benutzerkontos zu ermöglichen</li>
-            <li>Spielergebnisse zu speichern und anzuzeigen</li>
-            <li>Liga-, Pokal- und Turnierergebnisse zu verwalten</li>
-            <li>Freundschaftsfunktionen bereitzustellen</li>
-        </ul>
-
-        <h2>4. Drittanbieter-Dienste</h2>
-        <p>Die App nutzt folgende Dienste von Google Firebase:</p>
-        <ul>
-            <li><strong>Firebase Authentication</strong> – zur Verwaltung von Benutzerkonten</li>
-            <li><strong>Cloud Firestore</strong> – zur Speicherung von Spiel- und Nutzerdaten</li>
-            <li><strong>Firebase Storage</strong> – zur Speicherung von Profilbildern und Wappen</li>
-        </ul>
-        <p>
-            Diese Dienste werden von Google Ireland Ltd. betrieben.
-            Es gelten die <a href="https://firebase.google.com/support/privacy" target="_blank">Firebase-Datenschutzbestimmungen</a>
-            sowie die <a href="https://policies.google.com/privacy" target="_blank">Google-Datenschutzerklärung</a>.
-            Daten können in Rechenzentren außerhalb der EU verarbeitet werden. Google gewährleistet durch
-            Standardvertragsklauseln ein angemessenes Datenschutzniveau.
-        </p>
-
-        <h2>5. Geräteberechtigungen</h2>
-        <p>Die App fragt folgende Berechtigungen an:</p>
-        <ul>
-            <li><strong>Kamera</strong> – um ein Profilbild aufzunehmen (nur bei aktiver Nutzung)</li>
-            <li><strong>Fotos / Fotobibliothek</strong> – um ein vorhandenes Bild als Profilbild auszuwählen</li>
-        </ul>
-        <p>Diese Berechtigungen werden nur bei Bedarf angefragt und können jederzeit in den Geräteeinstellungen widerrufen werden.</p>
-
-        <h2>6. Datenweitergabe</h2>
-        <p>
-            Ihre Daten werden nicht an Dritte verkauft oder zu Werbezwecken verwendet.
-            Eine Weitergabe erfolgt ausschließlich im Rahmen der unter Punkt 4 genannten Firebase-Dienste.
-        </p>
-
-        <h2>7. Speicherdauer</h2>
-        <p>
-            Ihre Daten werden gespeichert, solange Ihr Benutzerkonto besteht.
-            Spielergebnisse in Ligen, Pokalen und Turnieren bleiben erhalten, solange die jeweilige Saison aktiv oder archiviert ist.
-        </p>
-
-        <h2>8. Ihre Rechte</h2>
-        <p>Sie haben das Recht auf:</p>
-        <ul>
-            <li>Auskunft über Ihre gespeicherten Daten</li>
-            <li>Berichtigung unrichtiger Daten</li>
-            <li>Löschung Ihres Kontos und Ihrer Daten</li>
-            <li>Einschränkung der Verarbeitung</li>
-            <li>Datenübertragbarkeit</li>
-            <li>Widerspruch gegen die Verarbeitung</li>
-        </ul>
-        <p>
-            Zur Ausübung Ihrer Rechte wenden Sie sich bitte über die
-            <a href="https://github.com/SandyLachs/fgvinden-legal/issues" target="_blank">GitHub Issues</a> an uns.
-        </p>
-
-        <h2>9. Kinder</h2>
-        <p>
-            Die App ist nicht gezielt an Kinder unter 16 Jahren gerichtet.
-            Personen unter 16 Jahren sollten die App nur mit Einwilligung eines Erziehungsberechtigten nutzen.
-        </p>
-
-        <h2>10. Änderungen</h2>
-        <p>
-            Wir behalten uns vor, diese Datenschutzerklärung bei Bedarf zu aktualisieren.
-            Die aktuelle Version ist stets unter dieser URL abrufbar.
-        </p>
-
-        <div class="footer">
-            &copy; 2025 1. FGV Inden &middot; Fußballgolf Tracker
-        </div>
-    </div>
+<h1 id="datenschutzerklärung-der-app-1.-fgv-inden">Datenschutzerklärung
+der App „1. FGV Inden“</h1>
+<p>Stand: 22. Oktober 2026</p>
+<p>Diese Datenschutzerklärung gilt für die App „1. FGV Inden“ für iPhone
+und Android sowie für die Web-Version der App. Sie erklärt, welche Daten
+die App verarbeitet, warum, wo sie gespeichert werden und welche Rechte
+du hast.</p>
+<h2 id="verantwortlicher">1. Verantwortlicher</h2>
+<p>Tai von Keitz<br />
+Merschfeldweg 1<br />
+50859 Köln<br />
+E-Mail: randylachs@gmail.com</p>
+<p>Die App wird privat betrieben. Sie ist kein Angebot des Vereins 1.
+FGV Inden. Der Verein nutzt die App für seinen Spielbetrieb.</p>
+<h2 id="kurz-zusammengefasst">2. Kurz zusammengefasst</h2>
+<ul>
+<li>Wir speichern nur, was die App für ihre Funktionen braucht: dein
+Konto, dein Profil und deine Spiele.</li>
+<li>Es gibt <strong>keine Werbung, kein Tracking und keine
+Analyse-Werkzeuge</strong>.</li>
+<li>Daten werden <strong>nicht verkauft</strong> und nicht für Werbung
+weitergegeben.</li>
+<li>Du kannst dein Konto jederzeit in der App löschen (siehe Abschnitt
+12).</li>
+</ul>
+<h2 id="konto-und-anmeldung">3. Konto und Anmeldung</h2>
+<p><strong>Welche Daten:</strong> E-Mail-Adresse, Passwort (nur
+verschlüsselt gespeichert, für uns nicht lesbar), Anzeigename, Zeitpunkt
+der Registrierung und der letzten Anmeldung.</p>
+<p><strong>Wozu:</strong> Damit du dich anmelden kannst und deine Spiele
+deinem Konto zugeordnet werden.</p>
+<p><strong>Rechtsgrundlage:</strong> Art. 6 Abs. 1 lit. b DSGVO
+(Nutzungsvertrag).</p>
+<p>Deine E-Mail-Adresse ist für andere Nutzer <strong>nicht
+sichtbar</strong>. Andere können dich nur finden, wenn sie deine
+E-Mail-Adresse bereits genau kennen. Dafür wird ein nicht umkehrbarer
+Prüfwert (Hash) der Adresse gespeichert.</p>
+<h2 id="profil">4. Profil</h2>
+<p><strong>Welche Daten:</strong> - Anzeigename - Profilbild
+(freiwillig) - Freundescode und QR-Code, mit dem andere dich als Freund
+hinzufügen können - DFGV-Spieler-ID und Link zu deinen
+Turnierergebnissen auf gscore.eu (freiwillig, siehe Abschnitt 8) - deine
+Einstellungen, z. B. ob du in der Namenssuche auffindbar bist und ob du
+Push-Mitteilungen erhalten willst</p>
+<p><strong>Sichtbarkeit:</strong> Anzeigename, Profilbild und
+Freundescode sehen andere angemeldete Nutzer. Mit dem Schalter
+<strong>„In der Namenssuche auffindbar“</strong> im Profil legst du
+fest, ob dich andere über deinen Namen finden. Ist er aus, findet man
+dich nur noch über Freundescode, QR-Code oder die genaue E-Mail-Adresse.
+Den Link zu deinen DFGV-Turnierergebnissen kannst du für andere
+ausblenden.</p>
+<p><strong>Rechtsgrundlage:</strong> Art. 6 Abs. 1 lit. b DSGVO. Für
+freiwillige Angaben (Profilbild, DFGV-ID) Art. 6 Abs. 1 lit. a DSGVO
+(Einwilligung). Du kannst sie jederzeit im Profil ändern oder
+entfernen.</p>
+<h2 id="spiele-ligen-cups-turniere-und-vereine">5. Spiele, Ligen, Cups,
+Turniere und Vereine</h2>
+<p><strong>Welche Daten:</strong> Runden und Ergebnisse je Bahn,
+Teilnahme an Ligen, Cups, Turnieren, Saisons und Vereinen, deine Rolle
+darin (z. B. Ligaleiter), Gegenzeichnungen von Ergebnissen und daraus
+berechnete Tabellen und Statistiken.</p>
+<p><strong>Sichtbarkeit:</strong> Ergebnisse eines Wettbewerbs sehen
+dessen Teilnehmer und Leitung. Tabellen und Ergebnisse von Vereinen,
+Ligen und Turnieren können je nach Einstellung des Wettbewerbs alle
+angemeldeten Nutzer sehen. Laufende Runden können Mitspieler und
+Zuschauer live verfolgen.</p>
+<p><strong>Mitspieler ohne Konto:</strong> Wer eine Runde anlegt, kann
+Mitspieler ohne Konto als <strong>Gast</strong> mit Namen eintragen. Für
+diese Einträge ist die Person verantwortlich, die sie anlegt.</p>
+<p><strong>Rechtsgrundlage:</strong> Art. 6 Abs. 1 lit. b DSGVO.</p>
+<h2 id="freunde-und-einladungen">6. Freunde und Einladungen</h2>
+<p><strong>Welche Daten:</strong> Freundschaften und
+Freundschaftsanfragen, gespeicherte Freundesgruppen, Einladungen mit
+Einladungscode.</p>
+<p>Einladungen kannst du über WhatsApp oder andere Apps teilen. Dabei
+wird nur ein Einladungstext mit Link an die App übergeben, die du
+auswählst. Dort gelten deren Datenschutzbestimmungen. Persönliche
+Einladungslinks laufen nach 30 Tagen ab. Beitrittslinks für Vereine
+gelten, bis sie widerrufen werden.</p>
+<p>Wirst du von jemandem in einen Wettbewerb aufgenommen, bekommst du
+eine Mitteilung und kannst jederzeit wieder austreten.</p>
+<p><strong>Rechtsgrundlage:</strong> Art. 6 Abs. 1 lit. b DSGVO.</p>
+<h2 id="push-mitteilungen">7. Push-Mitteilungen</h2>
+<p>Wenn du Mitteilungen erlaubst, speichert die App eine
+<strong>Gerätekennung für Push-Mitteilungen</strong> (Push-Token). Damit
+schicken wir dir z. B. Freundschaftsanfragen, Einladungen in Wettbewerbe
+und Ergebnisse.</p>
+<p>Die Mitteilungen werden über den Push-Dienst von
+<strong>Expo</strong> (650 Industries, Inc., USA) und von dort über
+<strong>Apple</strong> (Apple Push Notification Service) bzw.
+<strong>Google</strong> (Firebase Cloud Messaging) zugestellt. Dabei
+werden das Push-Token und der Text der Mitteilung übermittelt.</p>
+<p>Du kannst Mitteilungen jederzeit im Profil unter
+<strong>„Benachrichtigungen“</strong> oder in den Einstellungen deines
+Handys abschalten. Dann wird das Push-Token gelöscht.</p>
+<p><strong>Rechtsgrundlage:</strong> Art. 6 Abs. 1 lit. a DSGVO
+(Einwilligung über die Abfrage auf dem Gerät).</p>
+<h2 id="dfgv-turnierkalender-und-gscore">8. DFGV-Turnierkalender und
+gScore</h2>
+<p>Die App zeigt öffentliche Turnierdaten des Deutschen
+Fußballgolf-Verbands (DFGV) an. Dafür ruft unser Server regelmäßig die
+<strong>öffentlichen</strong> Seiten von dfgv.online und gscore.eu
+ab.</p>
+<p>Wenn du im Profil deine DFGV-Spieler-ID verknüpfst, sucht unser
+Server deinen Namen in der öffentlichen DFGV-Spielerliste. Dabei werden
+<strong>keine Daten aus der App an den DFGV oder an gScore
+übermittelt</strong>, der Abgleich findet auf unserem Server statt.
+Gespeichert werden nur die ID und der Link zu deiner öffentlichen
+Ergebnisseite.</p>
+<p><strong>Rechtsgrundlage:</strong> Art. 6 Abs. 1 lit. a DSGVO
+(freiwillige Verknüpfung).</p>
+<h2 id="kamera-und-fotos">9. Kamera und Fotos</h2>
+<ul>
+<li><strong>Kamera:</strong> nur zum Scannen von Freundes-QR-Codes. Das
+Bild wird nur auf deinem Gerät ausgewertet und weder gespeichert noch
+übertragen.</li>
+<li><strong>Fotos:</strong> nur, wenn du ein Profilbild auswählst.
+Hochgeladen wird nur das ausgewählte Bild.</li>
+<li><strong>Teilen:</strong> Wenn du ein Ergebnis oder eine Tabelle als
+Bild teilst, wird das Bild auf deinem Gerät erzeugt und an die App
+übergeben, die du auswählst.</li>
+</ul>
+<p>Die App fragt vorher um Erlaubnis. Du kannst den Zugriff jederzeit in
+den Einstellungen deines Handys entziehen.</p>
+<h2 id="auf-deinem-gerät-gespeicherte-daten">10. Auf deinem Gerät
+gespeicherte Daten</h2>
+<p>Die App speichert auf deinem Gerät deine Anmeldung, Einstellungen (z.
+B. die Art der Punkteeingabe) und <strong>Entwürfe von Runden</strong>,
+damit du auch ohne Internet weiterspielen kannst. Diese Daten werden
+nachgereicht, sobald wieder eine Verbindung besteht. Sie werden
+gelöscht, wenn du die App deinstallierst.</p>
+<p>Hintergrundbilder lädt die App nur über WLAN oder schnelles
+Mobilfunknetz. Dafür prüft sie die Art der Verbindung auf dem Gerät.
+Diese Information wird nicht übertragen.</p>
+<h2 id="dienstleister-und-speicherort">11. Dienstleister und
+Speicherort</h2>
+<p><strong>Google Firebase</strong> (Google Ireland Limited, Gordon
+House, Barrow Street, Dublin 4, Irland) stellt Anmeldung, Datenbank,
+Dateispeicher, Serverfunktionen und Webhosting bereit. Die Daten liegen
+in Rechenzentren von Google. Unsere Serverfunktionen laufen in Frankfurt
+am Main (europe-west3). Mit Google besteht ein Vertrag zur
+Auftragsverarbeitung nach Art. 28 DSGVO.</p>
+<p><strong>Expo</strong> (650 Industries, Inc., USA) leitet
+Push-Mitteilungen weiter (siehe Abschnitt 7).</p>
+<p>Google und Expo können Daten auch in den USA verarbeiten. Die
+Übermittlung erfolgt auf Grundlage des EU-US Data Privacy Framework bzw.
+der EU-Standardvertragsklauseln.</p>
+<p><strong>Apple</strong> und <strong>Google</strong> liefern als
+App-Stores und Push-Dienste die App und die Mitteilungen aus. Für die
+App-Stores gelten die Datenschutzbestimmungen von Apple bzw. Google.</p>
+<h2 id="konto-loeschen">12. Speicherdauer und Konto löschen</h2>
+<p>Deine Daten werden gespeichert, solange dein Konto besteht.</p>
+<p><strong>So löschst du dein Konto:</strong> In der App unter
+<strong>Profil → Konto löschen</strong>. Aus Sicherheitsgründen musst du
+dich dafür kurz vorher neu angemeldet haben. Alternativ kannst du die
+Löschung per E-Mail an randylachs@gmail.com beantragen. Wir löschen das
+Konto dann innerhalb von 30 Tagen.</p>
+<p><strong>Was gelöscht wird:</strong> dein Konto, deine E-Mail-Adresse,
+dein Profil mit Profilbild, Push-Token, Freundschaften, Freundesgruppen,
+deine Einladungen und offene Beitrittsanfragen.</p>
+<p><strong>Was bleibt:</strong> Damit Tabellen, Turnierbäume und
+Ergebnisse anderer Spieler stimmen, bleiben deine Ergebnisse in
+gemeinsamen Spielen und Wettbewerben als <strong>Gasteintrag mit deinem
+Anzeigenamen</strong> erhalten. Sie sind danach mit keinem Konto mehr
+verbunden. Möchtest du, dass auch dein Name dort ersetzt wird, schreib
+uns eine E-Mail.</p>
+<h2 id="deine-rechte">13. Deine Rechte</h2>
+<p>Du hast das Recht auf: - <strong>Auskunft</strong> über deine
+gespeicherten Daten (Art. 15 DSGVO) - <strong>Berichtigung</strong>
+falscher Daten (Art. 16 DSGVO) - <strong>Löschung</strong> (Art. 17
+DSGVO) - <strong>Einschränkung</strong> der Verarbeitung (Art. 18 DSGVO)
+- <strong>Datenübertragbarkeit</strong> (Art. 20 DSGVO) -
+<strong>Widerspruch</strong> gegen die Verarbeitung (Art. 21 DSGVO) -
+<strong>Widerruf</strong> einer Einwilligung mit Wirkung für die Zukunft
+(Art. 7 Abs. 3 DSGVO)</p>
+<p>Schreib dazu einfach eine E-Mail an randylachs@gmail.com.</p>
+<p>Du kannst dich außerdem bei einer Datenschutz-Aufsichtsbehörde
+beschweren, zum Beispiel bei der Landesbeauftragten für Datenschutz und
+Informationsfreiheit Nordrhein-Westfalen (www.ldi.nrw.de).</p>
+<h2 id="alter">14. Alter</h2>
+<p>Die App richtet sich an Personen ab 16 Jahren. Jüngere dürfen sie nur
+mit Zustimmung ihrer Eltern nutzen.</p>
+<h2 id="änderungen">15. Änderungen</h2>
+<p>Wenn sich die App ändert, passen wir diese Datenschutzerklärung an.
+Die aktuelle Fassung steht immer unter
+https://sandylachs.github.io/fgvinden-legal/ und in der App.</p>
 </body>
 </html>
